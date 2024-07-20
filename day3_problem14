@@ -1,0 +1,19 @@
+'''find the remove duplicates in an array
+8 7 7 8 5 4 4 8 9'''
+# li=list(map(int,input().split()))
+# li1=[]
+# for i in li:
+#     if i not in li1:
+#         li1.append(i)
+# print(li1)
+
+li=list(map(int,input().split()))
+li1=[]
+for i in li:
+    if i in li1:
+        li1.append(i)
+print(li1)
+
+        
+
+
